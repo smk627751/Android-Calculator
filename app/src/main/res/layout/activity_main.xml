@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/cardview_dark_background">
+
+    <TextView
+        android:id="@+id/input"
+        style="@style/TextStyle"/>
+
+    <LinearLayout style="@style/LayoutStyle">
+        <Button
+            android:id="@+id/clear"
+            style="@style/ButtonStyle"
+            android:text="AC" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="(" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text=")" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="/" />
+    </LinearLayout>
+    <LinearLayout style="@style/LayoutStyle">
+            <Button
+                style="@style/ButtonStyle"
+                android:text="7" />
+            <Button
+                style="@style/ButtonStyle"
+                android:text="8" />
+            <Button
+                style="@style/ButtonStyle"
+                android:text="9" />
+            <Button
+                style="@style/ButtonStyle"
+                android:text="*" />
+    </LinearLayout>
+    <LinearLayout style="@style/LayoutStyle">
+        <Button
+            style="@style/ButtonStyle"
+            android:text="4" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="5" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="6" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="-" />
+    </LinearLayout>
+    <LinearLayout style="@style/LayoutStyle">
+        <Button
+            style="@style/ButtonStyle"
+            android:text="1" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="2" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="3" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="+" />
+    </LinearLayout>
+    <LinearLayout style="@style/LayoutStyle">
+        <Button
+            android:id="@+id/del"
+            style="@style/ButtonStyle"
+            android:text="del" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="0" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="." />
+        <Button
+            android:id="@+id/equals"
+            style="@style/ButtonStyle"
+            android:text="=" />
+    </LinearLayout>
+</LinearLayout>
